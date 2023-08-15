@@ -1,8 +1,12 @@
 {
-  "name": "medusa-starter-default",
+  "name": "medusa-plugin-page",
   "version": "0.0.1",
-  "description": "A starter for Medusa projects.",
-  "author": "Sebastian Rindom <skrindom@gmail.com>",
+  "description": "this is about page management.",
+  "author": "Muhammed Dilmac",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammeddilmacc/medusa-plugin-page.git"
+  },
   "license": "MIT",
   "keywords": [
     "sqlite",
