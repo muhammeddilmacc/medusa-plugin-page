@@ -28,6 +28,7 @@ export default (rootDirectory: string): Router | Router[] => {
   // Set up express router
   const router = Router();
 
+
   // Set up root routes for store and admin endpoints, with appropriate CORS settings
   router.use("/store", cors(storeCorsOptions), bodyParser.json());
   router.use("/admin", cors(adminCorsOptions), bodyParser.json());
